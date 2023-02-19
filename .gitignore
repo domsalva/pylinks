@@ -1,5 +1,5 @@
 # Marketing
-*.txt
+notes/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
