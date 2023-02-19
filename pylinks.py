@@ -17,4 +17,4 @@ for link in soup.find_all("a"):
 with open("links.txt", "w") as file:
     for link in links:
         file.write(link + "\n")
-    print("links written to link.txt")
+    print("Links written to link.txt")
