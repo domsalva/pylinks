@@ -35,6 +35,7 @@ $ python3 pylinks.py
 
 ## Sample Output
 
-```text
-output placeholder
+```console
+replace this example with console output
+$ python3 pylinks.py <enter>
 ```
