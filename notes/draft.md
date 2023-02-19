@@ -1,6 +1,8 @@
 # pylinks
 
-pylinks is a Python script that extracts links from a given webpage using the BeautifulSoup library.
+pylinks is a Python script that extracts links from a given webpage given a webpage URL
+
+[![asciicast](https://asciinema.org/a/v5JLEcCv9BXTVL1geaMadtw4C.svg)](https://asciinema.org/a/v5JLEcCv9BXTVL1geaMadtw4C)
 
 ## Features
 
