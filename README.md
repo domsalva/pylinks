@@ -1,6 +1,8 @@
 # pylinks
 
-pylinks is a Python script that extracts links from a given webpage using the BeautifulSoup library.
+pylinks is a Python script that extracts links from a webpage URL
+
+[![demo.jpg](https://raw.githubusercontent.com/domsalvador/pylinks/main/demo/demo.jpg)](https://asciinema.org/a/v5JLEcCv9BXTVL1geaMadtw4C)
 
 ## Features
 
@@ -11,30 +13,31 @@ pylinks is a Python script that extracts links from a given webpage using the Be
 
 ## Requirements
 
-- Python 3.x 
+- Python 3.x
 
-## Installation
+If you have Python already installed, you can skip and continue to the next step.
 
-```console
-# check that python is installed
-$ python3 --version
-
-# clone the repo
-$ git clone https://github.com/domsalvador/pylinks
-
-# change the working directory to pytoodo
-$ cd pylinks
+```bash
+sudo apt-get update && sudo apt-get install python3 -y
+python3 --version
 ```
 
-## Usage
+## Installation and Usage
 
-```console
-# run the script with python
+```bash
+git clone https://github.com/domsalvador/pylinks
+cd pylinks
+python3 pylinks.py 
+```
+
+## Sample Usage
+
+```bash
 $ python3 pylinks.py
-```
+Enter a URL: https://en.wikipedia.org/wiki/Ada_Lovelace
 
-## Sample Output
+$ ls -CF
+README.md  links.txt  notes/  pylinks.py
 
-```text
-output placeholder
+$ nano links.txt
 ```
