@@ -20,16 +20,10 @@ sudo apt-get update && sudo apt-get install python3 -y
 python3 --version
 ```
 
-## Installation
+## Installation and Usage
 
 ```bash
 git clone https://github.com/domsalvador/pylinks
-cd pylinks
-```
-
-## Usage
-
-```bash
 cd pylinks
 python3 pylinks.py 
 ```
