@@ -13,7 +13,10 @@ for link in soup.find_all("a"):
     href = link.get("href")
     if href and re.match(r"^https?://", href):
         links.append(href)
-
-with open("links.txt", "w") as file:
-    for link in links:
-        file.write(link + "\n")
+try:
+    with open("links.txt", "w") as file:
+        for link in links:
+            file.write(link + "\n")
+    print(f"Saved to links.txt")
+except Exception as e:
+    print(f"Error: {e}")
