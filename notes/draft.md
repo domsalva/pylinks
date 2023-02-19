@@ -9,7 +9,7 @@ pylinks is a Python script that extracts links from a given webpage using the Be
 - Uses regular expressions to **identify links** that uses **"http" or "https"**
 - Can **handle any webpage** that can be accessed using a URL
 
-## Install Requirements
+## Requirements
 
 - Python 3.x
 
