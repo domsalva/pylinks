@@ -30,6 +30,7 @@ cd pylinks
 ## Usage
 
 ```bash
+cd pylinks
 python3 pylinks.py 
 ```
 
