@@ -13,29 +13,36 @@ pylinks is a Python script that extracts links from a given webpage using the Be
 
 - Python 3.x
 
+If you don't have Python installed, follow these steps:
+
+```bash
+sudo apt-get update
+sudo apt-get install python3
+python3 --version
+```
+
 ## Installation
 
-```console
-# check that python is installed
-$ python3 --version
-
-# clone the repo
-$ git clone https://github.com/domsalvador/pylinks
-
-# change the working directory to pytoodo
-$ cd pylinks
+```bash
+git clone https://github.com/domsalvador/pylinks
+cd pylinks
 ```
 
 ## Usage
 
-```console
-# run the script with python
-$ python3 pylinks.py
+```bash
+python3 pylinks.py 
 ```
 
-## Sample Output
 
-```console
-replace this example with console output
-$ python3 pylinks.py <enter>
+## Sample Usage
+
+```bash
+$ python3 pylinks.py
+Enter a URL: https://en.wikipedia.org/wiki/Ada_Lovelace
+
+$ ls -CF
+README.md  links.txt  notes/  pylinks.py
+
+$ nano links.txt
 ```
