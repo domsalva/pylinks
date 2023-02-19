@@ -16,8 +16,7 @@ pylinks is a Python script that extracts links from a given webpage using the Be
 If you don't have Python installed, follow these steps:
 
 ```bash
-sudo apt-get update
-sudo apt-get install python3
+sudo apt-get update && sudo apt-get install python3 -y
 python3 --version
 ```
 
@@ -33,7 +32,6 @@ cd pylinks
 ```bash
 python3 pylinks.py 
 ```
-
 
 ## Sample Usage
 
