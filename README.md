@@ -2,7 +2,7 @@
 
 pylinks is a Python script that extracts links from a webpage URL
 
-[![demo.jpg](https://asciinema.org/a/nwKlx3NE4902559dS64NAXP3S.svg)](https://asciinema.org/a/nwKlx3NE4902559dS64NAXP3S)
+[![demo.jpg](https://raw.githubusercontent.com/domsalvador/pylinks/main/demo/demo.gif)](https://asciinema.org/a/nwKlx3NE4902559dS64NAXP3S)
 
 - **Extracts all links** from a given webpage
 - **Saves links to a text file** in the same directory as the script
