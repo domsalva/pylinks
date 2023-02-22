@@ -29,7 +29,7 @@ Enter a URL: https://en.wikipedia.org/wiki/Ada_Lovelace
 Links written to link.txt
 
 $ ls
-demo  links.txt  pylinks.py  README.md  requirements.txt
+demo  links.txt  pylinks.py  README.md  requirements.txt  sorted.txt
 
 $ cat links.txt | grep org > sorted.txt
 $ cat sorted.txt
