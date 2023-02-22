@@ -23,10 +23,14 @@ python3 pylinks.py
 
 ```bash
 $ python3 pylinks.py
+pylinks / github
+------------------------------
 Enter a URL: https://en.wikipedia.org/wiki/Ada_Lovelace
+Links written to link.txt
 
 $ ls
-README.md  links.txt  notes/  pylinks.py
+demo  links.txt  pylinks.py  README.md  requirements.txt
 
-$ cat links.txt | grep org | >> ./sorted.txt && cat sorted.txt
+$ cat links.txt | grep org > sorted.txt
+$ cat sorted.txt
 ```
