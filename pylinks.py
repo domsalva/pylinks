@@ -2,6 +2,13 @@ from bs4 import *
 import requests
 import re
 
+# Functions
+def display_header():
+    print("pylinks / github")
+    print("-"*30)
+    
+# Main program
+display_header()    
 url = input("Enter a URL: ")
 
 response = requests.get(url)
