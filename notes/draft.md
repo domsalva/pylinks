@@ -2,32 +2,21 @@
 
 pylinks is a Python script that extracts links from a webpage URL
 
-[![demo.jpg](https://raw.githubusercontent.com/domsalvador/pylinks/main/demo/demo.jpg)](https://asciinema.org/a/v5JLEcCv9BXTVL1geaMadtw4C)
-
-## Features
+[![demo.jpg](https://github.com/Db-San/pylinks/blob/main/demo/demo.jpg?raw=true)](https://github.com/Db-San/pylinks/blob/main/demo/demo.gif)
 
 - **Extracts all links** from a given webpage
 - **Saves links to a text file** in the same directory as the script
 - Uses regular expressions to **identify links** that uses **"http" or "https"**
 - Can **handle any webpage** that can be accessed using a URL
 
-## Requirements
-
-- Python 3.x
-
-If you have Python already installed, you can skip and continue to the next step.
+## Requirements Installation and Usage
 
 ```bash
-sudo apt-get update && sudo apt-get install python3 -y
-python3 --version
-```
-
-## Installation and Usage
-
-```bash
-git clone https://github.com/domsalvador/pylinks
+sudo apt-get update && sudo apt-get install python3 pip git -y
+git clone https://github.com/Db-San/pylinks
 cd pylinks
-python3 pylinks.py 
+pip install -r requirements.txt
+python3 pylinks.py
 ```
 
 ## Sample Usage
@@ -36,8 +25,8 @@ python3 pylinks.py
 $ python3 pylinks.py
 Enter a URL: https://en.wikipedia.org/wiki/Ada_Lovelace
 
-$ ls -CF
+$ ls
 README.md  links.txt  notes/  pylinks.py
 
-$ nano links.txt
+$ cat links.txt | grep org | >> ./sorted.txt && cat sorted.txt
 ```
