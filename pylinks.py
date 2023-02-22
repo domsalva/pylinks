@@ -5,11 +5,11 @@ import re
 # Functions
 def display_header():
     print("pylinks / github")
-    print("-"*30)
+    print("-"*25)
     
 # Main program
 display_header()    
-url = input("Enter a URL: ")
+url = input(f"Enter a URL\n> ")
 
 response = requests.get(url)
 
