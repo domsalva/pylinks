@@ -4,8 +4,9 @@ import re
 
 # Functions
 def display_header():
-    print("pylinks / github")
-    print("-"*25)
+    header = "pylinks / github"
+    print(header)
+    print("-"*len(header) + "-"*3)
     
 # Main program
 display_header()    
@@ -24,4 +25,4 @@ for link in soup.find_all("a"):
 with open("links.txt", "w") as file:
     for link in links:
         file.write(link + "\n")
-    print("Links written to link.txt")
+    print("Links written to links.txt")
