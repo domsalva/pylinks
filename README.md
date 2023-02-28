@@ -24,9 +24,10 @@ python3 pylinks.py
 ```bash
 $ python3 pylinks.py
 pylinks / github
-------------------------------
-Enter a URL: https://en.wikipedia.org/wiki/Ada_Lovelace
-Links written to link.txt
+-------------------
+Enter a URL
+> https://en.wikipedia.org/wiki/Ada_Lovelace
+Links written to links.txt
 
 $ ls
 demo  links.txt  pylinks.py  README.md  requirements.txt  sorted.txt
