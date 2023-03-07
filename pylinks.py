@@ -32,4 +32,4 @@ with open("links.txt", "w") as file:
     for link in links:
         file.write(link + "\n")
 
-print("Saved to links.txt")
+print("Links written to links.txt")

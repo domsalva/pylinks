@@ -12,8 +12,8 @@ pylinks is a Python script that extracts links from a webpage URL
 ## Requirements Installation and Usage
 
 ```bash
-sudo apt-get update && sudo apt-get install python3 pip git -y
-git clone https://github.com/Db-San/pylinks
+sudo apt-get update && sudo apt-get install python3 pip git beautifulsoup4 -y
+git clone https://github.com/domsalva/pylinks
 cd pylinks
 pip install -r requirements.txt
 python3 pylinks.py
