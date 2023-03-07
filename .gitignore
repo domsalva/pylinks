@@ -1,7 +1,7 @@
 # Metadata
 links.txt
 sorted.txt
-/demo
+demo/*.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
