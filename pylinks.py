@@ -7,12 +7,18 @@ def display_header():
     header = "pylinks / github"
     print(header)
     print("-"*len(header) + "-"*3)
-    
-# Main program
-display_header()    
-url = input(f"Enter a URL\n> ")
 
-response = requests.get(url)
+# Main program
+display_header()
+
+while True:
+    url = input(f"Enter a URL\n> ")
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        break
+    except requests.exceptions.RequestException as e:
+        print(f"{e}\n")
 
 soup = BeautifulSoup(response.text, "html.parser")
 
@@ -25,4 +31,5 @@ for link in soup.find_all("a"):
 with open("links.txt", "w") as file:
     for link in links:
         file.write(link + "\n")
-    print("Links written to links.txt")
+
+print("Saved to links.txt")
