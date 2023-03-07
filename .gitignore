@@ -3,6 +3,12 @@ links.txt
 sorted.txt
 demo/*.md
 
+# Romeo01
+Romeo01/RomeoActual
+Vulture/Prep
+Ready/Medivac
+On/Standby
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
